@@ -27,12 +27,12 @@ This is to set up wordpress using AWS infrastructure. I have used terraform to p
    
 ### Install Terraform on Centos 7 or Redhat linux
 
-sudo yum update -y
-yum install wget unzip -y
-sudo wget https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip
-sudo unzip terraform_0.12.24_linux_amd64.zip
-sudo mv terraform /usr/local/bin/
- Terraform v0.12.24
+1. sudo yum update -y
+2. yum install wget unzip -y
+3. sudo wget https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip
+4. sudo unzip terraform_0.12.24_linux_amd64.zip
+5. sudo mv terraform /usr/local/bin/
+6. Terraform v0.12.24
 
 ### Provisioning:
 
