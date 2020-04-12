@@ -36,7 +36,7 @@ sudo mv terraform /usr/local/bin/
 
 ### Provisioning:
 
-1. git clone 
+1. git clone - https://github.com/gimmjam/ADM_Test_Task.git
 2. cd terraform-aws-wordpress
 2. terraform init
 3. terraform plan
